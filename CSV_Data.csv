@@ -1,0 +1,7 @@
+ticker,companyName,weblink,htmlString,htmlStringType,websiteSection,language
+MRO,Marathon Oil,https://ir.marathonoil.com/news-releases,wd_newsfeed_releases,Class,News,EN
+EZJ,EasyJet plc,http://corporate.easyjet.com/investors/financial-calendar,content-right-wrapper,Class,Events,EN
+"AF-FP","Air France Group","https://www.airfranceklm.com/en/finance","posts-section","Class","Events","EN"
+"FN-N","Fabrinet","https://investor.fabrinet.com/events-and-presentations/events","views-element-container","Class","Events","EN"
+"FN-N","Fabrinet","https://investor.fabrinet.com/press-releases","block-nir-pid1753-content","Id","Events","EN"
+"TEAM","Altassian","https://investors.atlassian.com/events-and-presentations/default.aspx","PaneContent","Class","Events","EN"

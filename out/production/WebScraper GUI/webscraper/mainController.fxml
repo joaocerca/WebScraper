@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox id="AnchorPane" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <AnchorPane prefHeight="1050" prefWidth="1680.0" HBox.hgrow="ALWAYS">
+            <children>
+                <TabPane prefHeight="1050" prefWidth="1680.0" side="LEFT" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <tabs>
+                        <Tab fx:id="createAgents" text="Create Agents">
+                            <content>
+                                <fx:include fx:id="createTabPage" source="Controllers/createTabView.fxml"/>
+                            </content>
+                        </Tab>
+
+                        <Tab fx:id="viewAgents" text="View Agents">
+                            <content>
+                                <fx:include fx:id="viewTabPage" source="Controllers/viewTabView.fxml" />
+                            </content>
+                        </Tab>
+
+                        <Tab fx:id="runAgents" text="Run Agents">
+                            <content>
+                                <fx:include fx:id="runTabPage" source="Controllers/runTabView.fxml" />
+                            </content>
+                        </Tab>
+
+                    </tabs>
+                </TabPane>
+            </children>
+        </AnchorPane>
+    </children>
+
+</HBox>
